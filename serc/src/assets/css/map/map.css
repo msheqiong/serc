@@ -1,0 +1,259 @@
+.assets-map {
+  padding: 3.7rem .7rem 3rem;
+}
+
+.assets-map .asset-list {
+  width: 100%;
+  font-size: .7rem;
+  /*margin-top: 1rem;*/
+}
+
+.assets-map .asset-list li {
+  padding: .5rem;
+  border-bottom: 1px solid #e2e2e2;
+  line-height: 1.5rem;
+  color: #666;
+}
+
+.assets-map .asset-list li:last-of-type {
+  border-bottom: none;
+}
+
+.assets-map .asset-list li {
+  font-size: .9rem;
+  font-weight: bold;
+  line-height: 2;
+  display: block;
+  color: #00f;
+}
+
+/*.assets-map .asset-list li > p span {
+  color: #000;
+}*/
+
+.assets-map .asset-list li .op {
+  float: right;
+  line-height: 2;
+}
+
+.assets-map .asset-list li .op a {
+  text-align: center;
+  color: #969696;
+  margin: 0 0 0 .4rem;
+  text-decoration: underline;
+  font-size: .6rem;
+}
+
+.assets-map .asset-list li .op-form.on {
+  border: 1px solid #eee;
+  padding: .5rem;
+  background: #f7f7f7;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.assets-map .asset-list li .op-form .qrcode {
+  /*padding: .5rem;*/
+  text-align: center;
+}
+
+.assets-map .asset-list li .op-form .qrcode #qrcode {
+  margin: 1rem 0;
+}
+
+.assets-map .asset-list li .op-form .qrcode #qrcode canvas,
+.assets-map .asset-list li .op-form .qrcode #qrcode img {
+  width: 10rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.assets-map .asset-list li .op-form p {
+  color: #d9534f;
+  line-height: 1.2rem;
+}
+
+.assets-map .asset-list li .op-form p > span.tip {
+  color: #888;
+  text-decoration: underline;
+  float: right;
+}
+
+.assets-map .asset-list li .op-form > p span {
+  padding: 0 .3rem;
+}
+
+.assets-map .asset-list li .op-form > button,
+.assets-map .asset-list li .op-form div input {
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 2rem;
+  /* line-height: 1rem; */
+  border: 1px solid #ddd;
+  background-color: #faf9f9;
+  color: rgb(107, 107, 107);
+  padding: 0 6px;
+  border-radius: 4px;
+  margin-top: .3rem;
+}
+
+/**/
+.assets-map .asset-list li .op-form > button {
+  /*width: 3.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;*/
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  /*border-radius: 4px;*/
+}
+
+.map-in {
+  padding: 3.7rem .7rem 3rem;
+  font-size: .6rem;
+}
+
+.map-in-tip,
+.map-in .qr-code,
+.map-in .map-in-copy {
+  padding: 1rem;
+  margin: 0 0 .5rem;
+  /*padding: 1.5rem 1rem;*/
+}
+
+.map-in-tip span {
+  padding: 0 .3rem;
+}
+
+.map-in .qr-code input {
+  width: 14rem;
+  height: 1.9rem;
+  border: none;
+  border-bottom: 1px solid #dddddd;
+  font-size: .7rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.map-in .qr-code #qrcode {
+  width: 12rem;
+  height: 12rem;
+  margin: .5rem auto 0;
+  position: relative;
+}
+
+.map-in .qr-code #qrcode canvas,
+.map-in .qr-code #qrcode img {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.map-in .map-in-copy {
+  font-size: .7rem;
+  text-align: center;
+}
+
+.map-in .map-in-copy input {
+  width: 100%;
+  text-align: center;
+  padding: 0 0 .5rem;
+  font-size: .7rem;
+  line-height: 1.9rem;
+}
+
+.map-in .map-in-copy button {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: .8rem;
+  width: 14rem;
+  margin: 0 auto;
+}
+
+.map-out {
+  padding: 3.7rem .7rem 0 .8rem;
+  font-size: .7rem;
+}
+
+.map-out .money {
+  padding: 1rem .5rem;
+  height: 2.2rem;
+}
+
+.map-out .money .head {
+  float: left;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid #e6eaf3;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.map-out .money .head > img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.map-out .money .info {
+  width: 80%;
+  margin-left: .5rem;
+  float: left;
+  color: #7b7b7b;
+  line-height: 1.2rem;
+}
+
+.map-out .money .info p {
+  color: #333333;
+}
+
+.map-out .btn {
+  margin-top: 2.2rem;
+  padding: 0 1rem;
+}
+
+.map-out .form {
+  margin-top: .5rem;
+}
+
+.map-log {
+  padding: 3rem 0;
+}
+
+.map-log .log-list {
+  width: 100%;
+}
+
+.map-log .log-list li {
+  padding: .7rem 1rem;
+  background-color: #f8faff;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.map-log .log-list li .num {
+  font-size: .7rem;
+}
+
+.map-log .log-list li p span:last-of-type {
+  float: right;
+  text-align: right;
+}
+
+.map-log .log-list li .time {
+  font-size: .64rem;
+  color: #9a9a9c;
+}

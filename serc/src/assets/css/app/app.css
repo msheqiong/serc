@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+.application {
+
+}
+
+/*.application .tab-header {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-size: .8rem;
+  background-color: white;
+  position: fixed;
+  top: 3rem;
+}
+
+.application .tab-header > div {
+  flex: 1;
+  height: 2.3rem;
+  line-height: 2.3rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.application .tab-header > div.active {
+  color: #3574fa;
+  border-bottom: 1px solid #3574fa;
+}*/
+
+.application ul {
+  margin-top: 2.3rem;
+}
+
+.application li {
+  padding: .5rem 1.5rem .5rem 1.2rem;
+  height: 2.4rem;
+  line-height: 1.2rem;
+  color: #999999;
+  background-color: white;
+  /*border-bottom: 1px solid #e6e6e6;*/
+  margin-top: .5rem;
+}
+
+.application li > .icon {
+  display: inline-block;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid #e6eaf3;
+  border-radius: 10px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.application li > .icon > img {
+  width: 2.2rem;
+}
+
+.application li > .message {
+  float: left;
+  margin-left: .5rem;
+}
+
+.application li > .message > p {
+  width: 12rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.application li > .message > p:first-of-type {
+  font-weight: bolder;
+  color: #222222;
+  font-size: .7rem;
+}
+
+.application li > .operation {
+  float: right;
+  text-align: right;
+  line-height: 2.4rem;
+}
+
+.application li > .operation > span {
+  display: inline-block;
+  color: #5889f3;
+  border: 1px solid #5889f3;
+  height: 1rem;
+  line-height: 1rem;
+  width: 2rem;
+  text-align: center;
+  border-radius: 30px;
+
+}
+
+.application .app-uninstall li > .operation > span {
+  color: #ababab;
+  border: 1px solid #ababab;
+}
+
+.node-list {
+  padding: 3rem 0 1rem;
+  font-size: .75rem;
+  text-align: center;
+  background-color: white;
+}
+
+.node-list dt,
+.node-list dd {
+  display: flex;
+  height: 1.9rem;
+  line-height: 1.9rem;
+  font-size: .7rem;
+  color: #696969;
+}
+
+.node-list dt {
+  background-color: #eee;
+  font-size: .8rem;
+  color: #222222;
+  height: 2.3rem;
+  line-height: 2.3rem;
+}
+
+.node-list dd:nth-of-type(odd) {
+  background-color: rgb(245, 245, 245);
+}
+
+.node-list dt > span,
+.node-list dd > span {
+  flex: 1;
+}
+
+.node-list .more {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.block-list {
+  padding: 3.9rem .5rem 3rem;
+  font-size: .7rem;
+}
+
+.block-list li {
+  padding: .6rem .8rem;
+  border-bottom: 1px #e2e2e2 dashed;
+  line-height: 1.8rem;
+  color: #969696;
+}
+
+.block-list li > div {
+  overflow: hidden;
+}
+
+.block-list li > div > span {
+  max-width: 13.5rem;
+  display: inline-block;
+  color: #000;
+  margin-right: .5rem;
+}
+
+.block-list li:last-of-type {
+  border-bottom: none;
+}
+
+.webview {
+  padding: 3rem 0 2.4rem;
+  /*  width: 100vw;
+    height: 100vh;*/
+}
+
+.webview > div {
+  position: relative;
+  /*width: 100%;*/
+  /*overflow-y: auto;*/
+  /*-webkit-overflow-scrolling: touch !important;*/
+  /*height: 100%;*/
+  overflow: auto;
+  -webkit-overflow-scrolling: touch !important;
+  width: 100%;
+  height: 100%;
+}
+
+.webview > div > iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 1px;
+  min-width: 100%;
+  *width: 100%;
+  *height: 100%;
+}

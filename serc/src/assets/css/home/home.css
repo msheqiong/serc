@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+.property {
+  padding: 0 0 2.5rem 0;
+}
+
+/*.property .total-assets {
+  width: 100%;
+  height: 9.9rem;
+  background: url("../../../assets/img/home/topbg.png");
+  background-size: cover;
+  padding: 2.6rem .7rem 0 .7rem;
+  box-sizing: border-box;
+}
+
+.property .total-assets > div {
+  background-color: white;
+  border-radius: 5px;
+  padding: .4rem .5rem;
+  color: #666666;
+  box-shadow: 0 2px 4px 0 #cccccc;
+  position: relative;
+}*/
+
+.property .total-assets {
+  width: 100%;
+  /* height: 9.9rem; */
+  background: url(../../../assets/img/home/topbg.png);
+  background-size: cover;
+  padding: 1rem .7rem;
+  box-sizing: border-box;
+  /* position: relative; */
+}
+
+.property .total-assets > div {
+  background-color: white;
+  border-radius: 5px;
+  padding: .4rem .5rem;
+  color: #666666;
+  box-shadow: 0 2px 4px 0 #cccccc;
+  position: relative;
+  /*bottom: -1.3rem;*/
+}
+
+/*收款地址*/
+.property .total-assets > div div.addr {
+  text-align: center;
+  margin: .5rem 0;
+}
+
+.property .total-assets > div div.addr img {
+  width: .8rem;
+  vertical-align: -16%;
+  margin-left: .3rem;
+}
+
+.property .total-assets > div > .icon {
+  position: absolute;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: url(../../../assets/img/home/plus.png);
+  background-size: cover;
+  top: .5rem;
+  right: .6rem;
+}
+
+.property .total-assets > div > h5 {
+  color: #333333;
+}
+
+.property .total-assets > div > p {
+  text-align: center;
+}
+
+.property .total-assets > div > p:nth-of-type(1) {
+  font-size: 1.6rem;
+  margin-top: .2rem;
+}
+
+.property .total-assets > div > p:nth-of-type(2) {
+  font-size: 0.6rem;
+}
+
+.property .total-assets > div ul {
+  display: flex;
+  text-align: center;
+  border-top: 1px solid #dfdfdf;
+  margin-top: .3rem;
+}
+
+.property .total-assets > div li {
+  padding-top: .4rem;
+  flex: 1;
+}
+
+.property .total-assets > div li > span {
+  color: #3574fa;
+  font-size: .9rem;
+}
+
+.property .detail-assets {
+  /*margin-top: 2rem;*/
+  background-color: white;
+  box-shadow: 0 1px 8px -3px #cccccc;
+}
+
+.property .detail-assets li {
+  padding: .5rem 1.2rem .5rem 1.2rem;
+  border-bottom: 1px solid #e6e6e6;
+  height: 2.7rem;
+  line-height: 1.4rem;
+  color: #999999;
+}
+
+.property .detail-assets li .icon {
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid #e6eaf3;
+  border-radius: 50%;
+  float: left;
+  /* text-align: center; */
+  position: relative;
+}
+
+.property .detail-assets li .icon img {
+  width: 1.4rem;
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.property .detail-assets li .name > p:first-of-type,
+.property .detail-assets li .sum > p:first-of-type {
+  font-size: .9rem;
+  color: #333333;
+  /*font-weight: bolder;*/
+}
+
+.property .detail-assets li .name {
+  float: left;
+  margin-left: .5rem;
+}
+
+.property .detail-assets li .sum {
+  float: right;
+  text-align: right;
+}
+
+.newroperty {
+  padding: 4rem .7rem 0;
+
+}
+
+.newroperty .selected > input {
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: 10px;
+  text-indent: 2.5rem;
+  color: #666666;
+  font-size: .7rem;
+  background: #eaeaea url("../../img/search.png") .8rem center/5% no-repeat;
+}
+
+.newroperty .newroperty-content {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.newroperty .newroperty-content li {
+  width: 29.7%;
+  float: left;
+  height: 2.3rem;
+  line-height: 2.3rem;
+  margin-bottom: .5rem;
+  padding-left: .5rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.newroperty .newroperty-content li.active {
+  background: url("../../img/home/border.png") center/100% 100% no-repeat;
+  border-radius: 0;
+}
+
+.newroperty .newroperty-content li:nth-of-type(3n+2) {
+  margin: 0 1rem;
+}
+
+.newroperty .newroperty-content li > i {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid #e5e9f2;
+  border-radius: 50%;
+  margin: .25rem .2rem 0 0;
+  text-align: center;
+  float: left;
+}
+
+.newroperty .newroperty-content li img {
+  width: .9rem;
+  vertical-align: top;
+  margin-top: .2rem;
+}

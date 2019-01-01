@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+.transfer{
+    padding: 4.2rem .8rem 0 .8rem;
+    font-size: .7rem;
+}
+.transfer .money{
+    padding: 1rem .5rem;
+    height: 2.2rem;
+}
+.transfer .money .head{
+    float: left;
+    width: 2.2rem;
+    height: 2.2rem;
+    border: 1px solid #e6eaf3;
+    border-radius: 50%;
+    text-align: center;
+}
+.transfer .money .head>img{
+    width:1.4rem;
+    margin-top: .2rem;
+}
+.transfer .money .info{
+    width: 80%;
+    margin-left: .5rem;
+    float: left;
+    color: #7b7b7b;
+    line-height: 1.2rem;
+}
+.transfer .money .info span>span{
+    color: #333333;
+}
+.transfer .money .info>p>span:nth-of-type(2){
+    float: right;
+}
+
+
+.transfer .form{
+    margin-top: 1rem;
+}
+.transfer .form li{
+    height: 3.3rem;
+    line-height: 3.3rem;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 0 .5rem;
+    display: flex;
+}
+.transfer .form li:last-of-type{
+    border-bottom: none;
+}
+.transfer .form li>span{
+    flex: 2;
+    color: black;
+}
+.transfer .form li>input,
+.transfer .form li>p{
+    flex: 5;
+}
+.transfer .form li>i{
+    flex: 1;
+    text-align: center;
+}
+.transfer .form li>i>img{
+    width: 1.3rem;
+    vertical-align: middle;
+}
+.transfer .btn{
+    margin-top: 2.2rem;
+    padding: 0 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+

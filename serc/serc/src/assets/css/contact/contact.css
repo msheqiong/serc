@@ -1,0 +1,107 @@
+.contact li {
+  display: flex;
+  padding: 1rem .7rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.contact li:last-of-type {
+  border-bottom: none;
+}
+
+.contact li > .head {
+  flex: 1;
+}
+
+.contact li > .head > img {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.contact li > .info {
+  flex: 6;
+}
+
+.contact li > .info > p:first-of-type {
+  font-size: .75rem;
+}
+
+.contact li > .info > p:last-of-type {
+  color: #999999;
+}
+
+.contact .none-bg {
+  margin: 2rem auto;
+}
+
+.add-contact {
+  padding: 4.2rem .8rem 0 .8rem;
+  font-size: .8rem;
+}
+
+.add-contact .info-first > .head {
+  border-bottom: 1px solid #e2e2e2;
+  height: 3rem;
+  line-height: 3rem;
+  padding: .4rem .8rem;
+}
+
+.add-contact .info-first > .head > i {
+  float: right;
+}
+
+.add-contact .info-first > .head > i img {
+  width: 2.1rem;
+  vertical-align: middle;
+}
+
+.add-contact .info-first > .name {
+  padding: .3rem .8rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.add-contact .info-first > .name input {
+  width: 80%;
+  height: 100%;
+  margin-left: .5rem;
+}
+
+.add-contact .info-last {
+  margin-top: .8rem;
+  color: #999999;
+}
+
+.add-contact .info-last li {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 0 .8rem;
+  position: relative;
+  height: 2.6rem;
+  line-height: 2.6rem;
+}
+
+.add-contact .info-last li:last-of-type {
+  border-bottom: none;
+}
+
+.add-contact .info-last li i {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: url("../../img/icon/qrscan.png") center/cover;
+  position: absolute;
+  right: 1.1rem;
+  top: .8rem;
+}
+
+.add-contact .info-last li:nth-of-type(n+2) {
+  display: flex;
+  font-size: .75rem;
+}
+
+.add-contact .info-last li:nth-of-type(n+2) > label {
+  flex: 1;
+}
+
+.add-contact .info-last li:nth-of-type(n+2) > input {
+  flex: 3;
+}

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.wallet {
+  padding: 3.7rem .7rem;
+}
+
+.wallet .wallet-pwd {
+
+}
+
+/*.wallet > .wallet-info {
+  text-align: center;
+  !* line-height: 2rem; *!
+  !* font-size: .8rem; *!
+  padding: .5rem 0;
+  margin-bottom: .6rem;
+}
+
+.wallet > .wallet-info img {
+  width: 3rem;
+}
+
+.wallet > .wallet-info > h2 {
+  font-size: 1.1rem;
+  color: #222222;
+}
+
+.wallet > .wallet-info > h2 > span {
+  margin-left: .2rem;
+  font-size: .6rem;
+  color: #999999;
+}
+
+.wallet > .wallet-info > p {
+  color: #666666;
+}*/
+
+.wallet .wallet-menu {
+  margin-bottom: .6rem;
+}
+
+.wallet .wallet-menu li {
+  padding: 0 0 0 .8rem;
+  /*font-size: .75rem;*/
+  height: 2.4rem;
+  line-height: 2.4rem;
+  border-bottom: 1px solid #e2e2e2;
+  background-image: url(../../img/user/user-right.png);
+  background-position: 95% center;
+  background-repeat: no-repeat;
+  background-size: 2%;
+}
+
+.wallet .wallet-menu li:last-of-type {
+  border-bottom: none;
+}

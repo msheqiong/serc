@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.gathering{
+    padding: 4.2rem .8rem 0 .8rem;
+    font-size: .6rem;
+}
+
+
+.gathering .QR-code{
+    padding: 1.1rem 3.2rem;
+    height: 16.2rem;
+}
+.gathering .QR-code>input{
+    width: 100%;
+    height: 1.9rem;
+    border-bottom: 1px solid #dddddd;
+    font-size: .8rem;
+}
+.gathering .QR-code>div{
+    height: 11.5rem;
+    margin: .5rem 0;
+}
+.gathering .QR-code>p{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.gathering .url-copy{
+    padding: .6rem .5rem;
+    height: 5.8rem;
+    margin-top: .6rem;
+}
+.gathering .url-copy>.location{
+    display: flex;
+}
+.gathering .url-copy>.location>span{
+    flex: 1;
+    color: #999999;
+}
+.gathering .url-copy>.location>p{
+    flex: 4;
+    font-size: .7rem;
+}
+.gathering .url-copy>.btn{
+    padding: 1.3rem 3.2rem;
+}
+.gathering .url-copy>.btn>button{
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .8rem;
+}

@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+
+.recent-record{
+    background-color: #f8faff;
+    padding: 3rem 0 2.6rem 0;
+}
+
+.recent-record .diagram-form{
+    text-align: center;
+    padding-top: .5rem;
+    color: #999999;
+    background-color: #f2f2f2;
+}
+.recent-record .diagram-form>p:nth-of-type(1){
+    font-size: 1.5rem;
+}
+.recent-record .diagram-form>p:nth-of-type(2){
+    font-size: .8rem;
+}
+.recent-record .diagram-form>span{
+    float: right;
+    margin-right: .8rem;
+}
+.recent-record .diagram-form>span:nth-of-type(1){
+    margin-right: 2.5rem;
+}
+.recent-record .diagram-form>span>i{
+     display: inline-block;
+     width: .5rem;
+     height: .5rem;
+     border-radius: 50%;
+     background: #f5a623;
+     margin-right: .3rem;
+ }
+.recent-record .diagram-form>span:nth-of-type(2)>i{
+    background: #3574fa;
+}
+.recent-record .diagram-form .graph{
+    height: 8rem;
+    margin-top: 2rem;
+}
+
+
+.recent-record .record-list{
+    width: 100%;
+    background-color: #f8faff;
+    padding-top: 1rem;
+}
+.recent-record .record-list>h5{
+    color: #999999;
+    text-indent: 1rem;
+    margin-bottom: -.2rem;
+}
+.recent-record .record-list li{
+    padding: .7rem 1rem;
+    border-bottom: 1px solid #e4e4e4;
+}
+.recent-record .record-list li>.num{
+    font-size: .7rem;
+}
+.recent-record .record-list li>.num>span:last-of-type{
+    float: right;
+    text-align: right;
+}
+.recent-record .record-list li .num>i{
+    float: right;
+    font-size: 1rem;
+    line-height: .8rem;
+}
+.recent-record .record-list li .num>i.add{
+    color: #39bb8f;
+}
+.recent-record .record-list li .num>i.minus{
+    color: #fa0018;
+}
+.recent-record .record-list li .time{
+    font-size: .64rem;
+    color: #9a9a9c;
+}
+.recent-record .operation{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    font-size: .8rem;
+}
+.recent-record .operation ul{
+     display: flex;
+ }
+.recent-record .operation li{
+    flex: 1;
+    height: 2.6rem;
+    line-height: 2.6rem;
+}
+.recent-record .operation li>i{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    position: relative;
+    top: .3rem;
+    left: -.2rem;
+}
+.recent-record .operation li.transfer>i{
+    background: url("../../../assets/img/up.png") center/cover;
+}
+.recent-record .operation li.proceeds>i{
+    background: url("../../../assets/img/down.png") center/cover;
+}
+.recent-record .operation li.transfer{
+    background-color: #90a0c8;
+}
+.recent-record .operation li.proceeds{
+    background-color: #3574fa;
+}
+
+

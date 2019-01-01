@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+.user {
+  padding: 1rem 0 2.5rem 0;
+}
+
+.user .top-operation {
+  padding: 0 1.3rem;
+}
+
+.user .top-operation > i {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.user .top-operation > i.setting {
+  background: url("../../img/icon/setting.png") center/cover;
+  float: left;
+}
+
+.user .top-operation > i.msgs {
+  background: url("../../img/icon/word.png") center/cover;
+  float: right;
+  position: relative;
+}
+
+.user .top-operation > i.msgs > span {
+  display: inline-block;
+  width: .6rem;
+  height: .6rem;
+  background-color: #ff0000;
+  color: rgba(255, 255, 255, .8);
+  font-size: .6rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .6rem;
+  position: absolute;
+  top: -.2rem;
+  right: -.1rem;
+}
+
+.user .info {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.user .info i {
+  display: inline-block;
+  width: 5.4rem;
+  height: 5.4rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px 1px #cccccc;
+}
+
+.user .info p {
+  margin-top: .5rem;
+}
+
+.user .info i > img {
+  width: 5.4rem;
+}
+
+.user .else {
+  margin-top: 2rem;
+}
+
+.user .else li {
+  background-color: white;
+  border-bottom: 1px solid #e1e1e1;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  padding: 0 1.3rem 0 1.3rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+
+  background-image: url(../../img/user/user-right.png);
+  background-position: 95% center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 2%;
+  background-size: 2%;
+}
+
+.user .else li.vacancy {
+  border-bottom: none;
+  margin-bottom: .5rem;
+  box-shadow: 0 4px 5px 0px #ececec;
+}
+
+.user .else li > span {
+  margin-left: .6rem;
+}
+
+.user .else li > img {
+  width: 1.1rem;
+  vertical-align: -12%;
+}
+
+/*.user .else li > i.right {
+  display: inline-block;
+  width: .4rem;
+  height: .8rem;
+  background: url(../../img/user/user-right.png) center/cover no-repeat;
+  position: absolute;
+  top: 0.8rem;
+  right: 1.8rem;
+}*/
+
+.user-passwd,
+.user-lock {
+  padding: 3rem .7rem;
+}
+
+.user-passwd .hint,
+.user-lock .hint {
+  margin-top: 1rem;
+}
+
+.user-passwd .has-set,
+.user-lock .has-set {
+  margin: 2rem 0 0;
+  text-align: center;
+}
+
+.user-passwd .has-set img,
+.user-lock .has-set img {
+  width: 30%;
+}
+
+.user-passwd .has-set div.text,
+.user-lock .has-set div.text {
+  margin-top: 1rem;
+  font-size: .8rem;
+  font-weight: bold;
+  color: red;
+}
+
+.user-lock .unlock {
+  margin: 1rem 0 0;
+  color: red;
+  font-size: .7rem;
+  text-align: center;
+}

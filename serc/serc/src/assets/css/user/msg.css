@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.message {
+  padding: 3.7rem .7rem 0;
+}
+
+.message ul li {
+  padding: .4rem .6rem .4rem .6rem;
+  line-height: 1.5rem;
+  font-size: .64rem;
+  margin-top: .5rem;
+}
+
+.message ul li:after {
+  content: "";
+  display: block;
+  clear: both;
+  max-height: 0;
+  visibility: hidden;
+}
+
+.message ul li > h4,
+.message ul li > p {
+  /*overflow: hidden;*/
+  /*-ms-text-overflow: ellipsis;*/
+  /*text-overflow: ellipsis;*/
+  /*white-space: nowrap;*/
+}
+
+.message ul li > h4 {
+  font-size: .8rem;
+  float: left;
+}
+
+.message ul li > p.time {
+  float: right;
+  color: #666666;
+  text-indent: 1rem;
+  background-image: url(../../img/icon/time.png);
+  background-repeat: no-repeat;
+  background-size: 24%;
+  background-position: left center;
+  line-height: 1.5rem;
+}
+
+.message ul li > p:last-child {
+  color: #999999;
+  clear: both;
+}

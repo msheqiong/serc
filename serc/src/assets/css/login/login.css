@@ -1,0 +1,267 @@
+@charset "UTF-8";
+
+.login-index {
+  background: url("../../img/login/bg.png") center/cover;
+  position: relative;
+}
+
+.login-index > div {
+  width: 100%;
+  position: absolute;
+  bottom: 1.2rem;
+  color: white;
+  padding: 0 1.3rem;
+  box-sizing: border-box;
+}
+
+.login-index button {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 30px;
+  font-size: .9rem;
+  margin-top: 1.1rem;
+  background-color: #4a9df6;
+  border: 1px solid white;
+  color: white;
+}
+
+.login-index button.btn-register {
+  border: none;
+  background: url("../../img/login/btn-reg.png") center/cover;
+}
+
+.login-index p.language {
+  font-size: .8rem;
+  text-align: right;
+  margin-top: 2.3rem;
+}
+
+.lang {
+
+}
+
+.lang li {
+  height: 2.4rem;
+  line-height: 2.4rem;
+  font-size: .8rem;
+  padding: 0 1rem;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: white;
+}
+
+.lang li > i {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  float: right;
+  margin-top: .7rem;
+}
+
+.lang li.active > i {
+  border-color: #3574fa;
+  background-color: #3574fa;
+}
+
+.login {
+
+}
+
+.login .word-wrap {
+  padding: 0 .8rem;
+  margin-top: .7rem;
+}
+
+.login .word-wrap .box-wrap {
+  padding: .4rem .6rem .3rem .6rem;
+}
+
+.login .word-wrap .word-box {
+  min-height: 4.5rem;
+}
+
+.login .word-wrap textarea.word-box {
+  border: 1px solid #eee;
+  width: 100%;
+  font-size: 1rem;
+  font-family: monospace;
+}
+
+.login .word-wrap .word-box span {
+  display: inline-block;
+  padding: .2rem .9rem;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  font-size: .7rem;
+  margin-bottom: .4rem;
+  margin-left: .2rem;
+}
+
+.login .word-wrap .word-btns {
+  width: 11rem;
+  margin: 0 auto;
+}
+
+.login .word-wrap .word-btns > button {
+  display: block;
+  width: 4.5rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  font-size: .75rem;
+  color: white;
+  border-radius: 5px;
+  float: left;
+  background-color: #b5b5b5;
+  /*margin: 0 auto;*/
+}
+
+.login .word-wrap .word-btns > button:last-child {
+  float: right;
+  background-color: #3574fa;
+}
+
+.login .search-wrap .search-box {
+  padding: .8rem 1.5rem;
+}
+
+.login .search-wrap .search-box > input {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border-radius: 30px;
+  text-indent: 2.5rem;
+  color: #666666;
+  font-size: .8rem;
+  background: #e0e0e0 url("../../img/search.png") .8rem center/6.5% no-repeat;
+}
+
+.login .search-wrap .search-list li {
+  padding: 0 1.5rem;
+  height: 2.7rem;
+  line-height: 2.7rem;
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: .8rem;
+  /*display: none;*/
+}
+
+.login .search-wrap .search-list li b {
+  color: #f00;
+}
+
+.login .search-wrap .search-list li:nth-of-type(n+2):last-of-type {
+  border-bottom: none;
+}
+
+.new-words {
+  padding: 3rem .8rem 0 .8rem;
+}
+
+.new-words > h2 {
+  text-align: center;
+  font-size: .9rem;
+  margin: 1.25rem 0 1rem 0;
+}
+
+.new-words > p {
+  padding-left: 1rem;
+  font-size: .75rem;
+}
+
+.new-words .word-box {
+  margin: 1rem 0;
+  font-size: .95rem;
+  padding: .7rem 1.2rem;
+  font-weight: bolder;
+}
+
+.new-words .hint {
+  font-size: .75rem;
+  color: #0e76ff;
+}
+
+.new-words .hint > h5 {
+  color: #333333;
+  margin-bottom: .2rem;
+}
+
+.new-words .hint > button {
+  margin-top: 2rem;
+}
+
+.verify-word {
+  background-color: white;
+  padding: 3rem .8rem;
+  font-size: .8rem;
+}
+
+.verify-word p {
+  margin: 1.1rem 0 .8rem 0;
+  line-height: 1rem;
+}
+
+.verify-word .word-box {
+  padding: .4rem .6rem;
+  min-height: 7.3rem;
+}
+
+.verify-word .word-box > span {
+  display: inline-block;
+  padding: .2rem .9rem;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  font-size: .7rem;
+  margin-bottom: .4rem;
+  margin-left: .2rem;
+}
+
+.verify-word .word-list {
+  width: 100%;
+  margin: 1.1rem 0 1.1rem;
+}
+
+.verify-word .word-list li {
+  float: left;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  /* width: 20%; */
+  padding: 0 .5rem;
+  margin-right: 1rem;
+  border: 1px solid #b5b5b5;
+  border-radius: 30px;
+  margin-bottom: .7rem;
+  text-align: center;
+}
+
+.verify-word .word-list li.bg {
+  background-color: #90a0c8;
+  border-color: #90a0c8;
+}
+
+.verify-word .candidate li:nth-of-type(4n+4) {
+  margin-right: 0;
+}
+
+/* 修改 添加*/
+.verify-word .word-box li {
+  float: left;
+ /* height: 1.7rem;*/
+  line-height: 1.3rem;
+  /* width: 20%; */
+  padding: 0 .5rem;
+  margin-right: 1rem;
+  border: 1px solid #b5b5b5;
+  border-radius: 30px;
+  margin-bottom: .7rem;
+  text-align: center;
+  font-size: .7rem;
+
+  /*display: inline-block;
+  padding: .2rem .9rem;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  font-size: .7rem;
+  margin-bottom: .4rem;
+  margin-left: .2rem;*/
+}

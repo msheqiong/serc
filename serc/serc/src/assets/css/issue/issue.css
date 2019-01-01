@@ -1,0 +1,142 @@
+.assets-issued {
+  padding: 4rem .7rem 3rem;
+}
+
+.assets-issued .asset-info {
+  font-size: .8rem;
+}
+
+.assets-issued .asset-info li {
+  padding: 0 1.2rem 0 .5rem;
+  font-size: .75rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.assets-issued .asset-info li:last-of-type {
+  border-bottom: none;
+}
+
+.assets-issued .asset-info li label {
+  color: #909090;
+}
+
+.assets-issued .asset-list {
+  width: 100%;
+  font-size: .7rem;
+  margin-top: 1rem;
+}
+
+.assets-issued .asset-list li {
+  padding: .4rem .8rem;
+  border-bottom: 1px solid #e2e2e2;
+  line-height: 1.5rem;
+  color: #969696;
+}
+
+.assets-issued .asset-list li:last-of-type {
+  border-bottom: none;
+}
+
+.assets-issued .asset-list li h2.name {
+  font-size: .9rem;
+  font-weight: bold;
+  line-height: 2;
+  display: block;
+  color: #00f;
+}
+
+.assets-issued .asset-list li > p span {
+  color: #000;
+}
+
+.assets-issued .asset-list li > .op {
+  float: right;
+}
+
+.assets-issued .asset-list li .op a {
+  text-align: center;
+  color: #969696;
+  margin: 0 0 0 .4rem;
+  text-decoration: underline;
+  font-size: .6rem;
+}
+
+.assets-issued .asset-list li .op-form.on {
+  border: 1px solid #ccc;
+  padding: .5rem;
+  background: #eee;
+}
+
+.assets-issued .asset-list li .op-form > button {
+  width: 3.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  border-radius: 4px;
+}
+
+.assets-issued .asset-list li .op-form > p {
+  color: #d9534f;
+  line-height: 1.2rem;
+}
+
+.assets-issued .asset-list li .op-form > p span {
+  padding: 0 .3rem;
+}
+
+.assets-issued .asset-list li .op-form div input {
+  width: 11rem;
+  height: 1rem;
+  border: 1px solid #ddd;
+  background-color: #faf9f9;
+  color: #aaa;
+  padding: 6px;
+  border-radius: 4px;
+  margin-bottom: .3rem;
+}
+
+.hint {
+  margin-top: 1rem;
+}
+
+.issuer,
+.asset-add {
+  padding: 3rem .7rem 3rem;
+}
+
+.asset-add .btn {
+  padding: 0 1rem;
+  margin-top: 1.5rem;
+}
+
+.asset-log {
+  padding: 3rem 0 2.5rem;
+  font-size: .68rem;
+  background-color: white;
+}
+
+.asset-log li {
+  padding: .7rem;
+  border-bottom: 1px solid #dedede;
+  box-sizing: border-box;
+}
+
+.asset-log li:nth-of-type(odd) {
+  background-color: rgb(245, 245, 245);
+}
+
+.asset-log li > p:last-of-type {
+  color: #9a9a9a;
+  font-size: .64rem;
+  margin-top: .3rem;
+}
+
+.asset-log .more {
+  text-align: center;
+  line-height: 2rem;
+  margin: .5rem;
+}

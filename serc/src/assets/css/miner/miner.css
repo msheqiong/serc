@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+.earnings {
+  padding: 4.2rem .8rem 3.2rem;
+}
+
+.earnings .trustee-info {
+  padding: .5rem .8rem;
+}
+
+.earnings .name > i {
+  float: right;
+}
+
+.earnings .total-revenue {
+  text-align: center;
+  margin-top: .5rem;
+}
+
+.earnings .total-revenue > b {
+  font-size: 1.3rem;
+  color: #3574fa;
+  margin: 0 .2rem;
+
+}
+
+.earnings .trustee-info ul {
+  display: flex;
+  text-align: center;
+  border-top: 1px solid #dfdfdf;
+  margin-top: .3rem;
+}
+
+.earnings .trustee-info li {
+  padding-top: .4rem;
+  flex: 1;
+  font-size: .7rem;
+  line-height: 1.5rem;
+  color: #666666;
+}
+
+.earnings .trustee-info li > span {
+  color: #3574fa;
+  font-size: .9rem;
+}
+
+.earnings .income-details {
+  margin-top: .8rem;
+}
+
+.earnings .income-details li {
+  padding: .6rem .8rem;
+  border-bottom: 1px #e2e2e2 dashed;
+  line-height: 1.8rem;
+  color: #969696;
+}
+
+.earnings .income-details li:last-of-type {
+  border-bottom: none;
+}
+
+.earnings .income-details li > div {
+  overflow: hidden;
+}
+
+.earnings .income-details li > div > span {
+  color: #000;
+  margin-right: .5rem;
+}
+
+.miner-reg {
+  padding: 3rem .7rem;
+}
+
+.miner-reg .hint {
+  margin-top: 1rem;
+}
+
+.vote {
+  padding: 6rem .7rem 5.4rem;
+}
+
+.vote .tab-wrap .fixed {
+  width: 100%;
+  position: fixed;
+  bottom: 2.5rem;
+  left: 0;
+  padding: .4rem .5rem;
+  box-sizing: border-box;
+  z-index: 3;
+  font-size: .8rem;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+.vote .tab-wrap .fixed .total {
+  float: left;
+  line-height: 1.5rem;
+}
+
+.vote .tab-wrap .fixed .operation {
+  float: right;
+}
+
+.vote .tab-wrap .fixed button {
+  width: 3rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  background-color: #3574fa;
+  color: white;
+}
+
+.vote .tab-wrap li {
+  padding: .6rem .8rem;
+  border-bottom: 1px #e2e2e2 dashed;
+  line-height: 1.6rem;
+  overflow: hidden;
+  color: #969696;
+}
+
+.vote .tab-wrap li.on {
+  background: #eeeeee;
+}
+
+.vote .tab-wrap li div.checkbox span b {
+  margin: 0 .2rem 0 0;
+  /* color: red;
+  text-decoration: underline;*/
+  font-weight: normal;
+}
+
+.vote .tab-wrap li > div > span {
+  margin-right: .3rem;
+  color: #000;
+}
+
+/*.vote .tab-wrap li > div:nth-of-type(n+3):nth-of-type(odd) {
+  width: 5.1rem;
+  float: left;
+  margin-right: 2rem;
+}*/
+
+.vote .tab-wrap li:last-of-type {
+  border-bottom: none;
+}
+
+/*.vote .mine li > div:nth-of-type(even) {
+  width: 5.1rem;
+  float: left;
+  margin-right: 2rem;
+}*/
+
+/*checkbox*/
+/*
+.vote .check {
+  width: .5rem;
+  position: relative;
+  margin-bottom: -.4rem;
+}
+
+.vote .check input[type=checkbox] {
+  visibility: hidden;
+}
+
+.vote .check label {
+  cursor: pointer;
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border: 2px solid #ccc;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 5px;
+}
+
+.vote .check label:after {
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 4px;
+  background: transparent;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -4px;
+  border: 2px solid #333;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.vote .check input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}*/
